@@ -25,6 +25,9 @@ jobs:
         with:
           node-version: 20.x
 
+      - name: Debug - show the changeset files
+        run: ls -la .changeset
+
       - name: Create Release Pull Request
         uses: prenaissance/changeset-action
         with:
