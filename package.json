@@ -4,6 +4,8 @@
   "description": "repo for testing changesets and its action",
   "main": "index.js",
   "scripts": {
+    "changeset": "npx @changesets/cli",
+    "version": "npx @changesets/cli version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
