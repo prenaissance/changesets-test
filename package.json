@@ -4,10 +4,13 @@
   "description": "repo for testing changesets and its action",
   "main": "index.js",
   "scripts": {
-    "changeset": "npx @changesets/cli",
-    "version": "npx @changesets/cli version",
+    "changeset": "changeset",
+    "version": "changeset version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.5"
+  }
 }
