@@ -36,6 +36,7 @@ jobs:
         with:
           # this expects you to have a npm script called version that runs some logic and then calls `changeset version`.
           version: npm run version
+          baseBranch: ${{ github.event.inputs.baseBranch }}
           createGithubReleases: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
