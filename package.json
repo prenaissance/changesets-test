@@ -1,6 +1,6 @@
 {
   "name": "changesets-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "repo for testing changesets and its action",
   "main": "index.js",
   "scripts": {
