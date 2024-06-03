@@ -32,7 +32,7 @@ jobs:
         run: ls -la .changeset
 
       - name: Create Release Pull Request
-        uses: prenaissance/changeset-action@test1
+        uses: prenaissance/changeset-action@action
         with:
           # this expects you to have a npm script called version that runs some logic and then calls `changeset version`.
           version: npm run version
